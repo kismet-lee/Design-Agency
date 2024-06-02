@@ -162,7 +162,41 @@ header.fixed-top {
 }
 
 .what-we-do .boxes-wrapper h3 {
-  box-shadow: 0 4px 20px 0 #0000001a;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.what-we-do .boxes-wrapper p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.what-we-do .boxes-wrapper a {
+  transition: all 0.5s linear;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+.what-we-do .boxes-wrapper:hover a {
+  color: white;
+  background-color: #f55f1d;
+}
+
+.what-we-do .boxes-wrapper a img {
+  transition: all 0.35s linear;
+}
+
+.what-we-do .boxes-wrapper:hover a img {
+  filter: invert(1);
 }
 
 /* WHAT WE DO START */
