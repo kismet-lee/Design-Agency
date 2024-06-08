@@ -289,6 +289,8 @@ header.fixed-top {
   padding: 40px;
   border-radius: 20px;
   box-shadow: 0 4px 4px 0 #00000040;
+  background-color: white;
+  margin: 0 23.5px;
 }
 
 .testimonials-slider .item p {
@@ -630,6 +632,11 @@ div#subscribe-response-message {
     padding: 0 30% 0 0;
   }
 
+  .site-footer p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
   .site-footer .col-md-4 {
     width: 25%;
   }
@@ -746,7 +753,7 @@ div#subscribe-response-message {
 
   .site-footer .copyright {
     margin: 30px 0 0;
-    text-align: center;
+    text-align: left;
   }
 
   .site-footer {
